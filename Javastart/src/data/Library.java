@@ -48,7 +48,7 @@ public class Library {
 		}
 		
 		for (int i = 0; i < magazineNumber; i++) {
-			magazines[i].printInfo();
+			System.out.println(magazines[i]);
 		}
 	}
 	
@@ -68,7 +68,7 @@ public class Library {
 		}
 
 		for (int i = 0; i < booksNumber; i++) {
-			books[i].printInfo();
+			System.out.println(books[i]);
 		}
 	}
 
